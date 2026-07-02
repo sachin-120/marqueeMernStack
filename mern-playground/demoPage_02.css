@@ -1,0 +1,17 @@
+.centralized {
+        text-align: center;
+      }
+
+      .sub-headings {
+        background-color: ghostwhite;
+        padding: 5px;
+        border: 1px solid gray;
+        border-radius: 10px;
+        margin: 10px;
+      }
+
+      .headings {
+        color: skyblue;
+        border-bottom: 2px solid;
+        border-right: 2px solid;
+      }
