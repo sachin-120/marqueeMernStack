@@ -118,7 +118,7 @@ This repository is primarily maintained for **personal learning purposes**. That
 **Sachin Santosh Sharma**
 
 - 🐙 GitHub: [@sachin-120](https://github.com/sachin-120)
-- 💼 LinkedIn: [Sachin Santosh Sharma](https://www.linkedin.com/in/sachin-santosh-sharma)
+- 💼 LinkedIn: [Sachin Santosh Sharma](https://www.linkedin.com/in/sachin-santosh-sharma-b93345404/)
 
 ---
 
