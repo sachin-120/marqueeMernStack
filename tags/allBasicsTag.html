@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic HTML Tags</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>HTML Basics</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Headings</h2>
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+
+            <p>This is a paragraph.</p>
+            <hr>
+
+            <p>
+                <b>Bold</b>
+                <strong>Strong</strong>
+                <i>Italic</i>
+                <em>Emphasis</em>
+                <u>Underline</u>
+                <mark>Marked</mark>
+                <small>Small</small>
+                <del>Deleted</del>
+                <ins>Inserted</ins>
+                H<sub>2</sub>O
+                x<sup>2</sup>
+            </p>
+
+            <blockquote>This is a blockquote.</blockquote>
+
+            <pre>
+Line One
+Line Two
+            </pre>
+
+            <code>console.log("Hello");</code>
+
+            <br>
+
+            <abbr title="HyperText Markup Language">HTML</abbr>
+        </section>
+
+        <section>
+            <h2>Lists</h2>
+
+            <ul>
+                <li>Apple</li>
+                <li>Banana</li>
+            </ul>
+
+            <ol>
+                <li>First</li>
+                <li>Second</li>
+            </ol>
+
+            <dl>
+                <dt>HTML</dt>
+                <dd>Markup Language</dd>
+            </dl>
+        </section>
+
+        <section>
+            <h2>Links and Images</h2>
+
+            <a href="https://example.com" target="_blank">Visit Example</a>
+
+            <br><br>
+
+            <img src="https://via.placeholder.com/150" alt="Placeholder">
+        </section>
+
+        <section>
+            <h2>Table</h2>
+
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>22</td>
+                </tr>
+                <tr>
+                    <td>Jane</td>
+                    <td>24</td>
+                </tr>
+            </table>
+        </section>
+
+        <section>
+            <h2>Form</h2>
+
+            <form>
+                <label>Name:</label>
+                <input type="text">
+
+                <br><br>
+
+                <label>Email:</label>
+                <input type="email">
+
+                <br><br>
+
+                <label>Password:</label>
+                <input type="password">
+
+                <br><br>
+
+                <label>Number:</label>
+                <input type="number">
+
+                <br><br>
+
+                <label>Date:</label>
+                <input type="date">
+
+                <br><br>
+
+                <label>Color:</label>
+                <input type="color">
+
+                <br><br>
+
+                <label>File:</label>
+                <input type="file">
+
+                <br><br>
+
+                <label>
+                    <input type="checkbox">
+                    Checkbox
+                </label>
+
+                <br><br>
+
+                <label>
+                    <input type="radio" name="gender">
+                    Male
+                </label>
+
+                <label>
+                    <input type="radio" name="gender">
+                    Female
+                </label>
+
+                <br><br>
+
+                <select>
+                    <option>Option 1</option>
+                    <option>Option 2</option>
+                </select>
+
+                <br><br>
+
+                <textarea rows="4" cols="30"></textarea>
+
+                <br><br>
+
+                <button type="submit">Submit</button>
+
+                <input type="reset">
+            </form>
+        </section>
+
+        <section>
+            <h2>Media</h2>
+
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+            </audio>
+
+            <br><br>
+
+            <video controls width="300">
+                <source src="video.mp4" type="video/mp4">
+            </video>
+        </section>
+
+        <section>
+            <h2>Semantic Elements</h2>
+
+            <article>
+                <h3>Article</h3>
+                <p>Article content.</p>
+            </article>
+
+            <aside>
+                Sidebar content.
+            </aside>
+
+            <details>
+                <summary>More Info</summary>
+                <p>Hidden content.</p>
+            </details>
+
+            <figure>
+                <img src="https://via.placeholder.com/100" alt="Image">
+                <figcaption>Figure Caption</figcaption>
+            </figure>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 HTML Example</p>
+    </footer>
+
+    <script>
+        console.log("HTML Loaded");
+    </script>
+
+</body>
+</html>
