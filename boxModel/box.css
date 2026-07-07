@@ -1,0 +1,39 @@
+.head_Div{
+    background-color:#f98170;
+    border:5px black solid;
+}
+
+.headDivh2{
+    margin-left: 20px;
+}
+
+.para_div{
+    background-color:#addbe4;
+    border:5px solid #0a0e6c;
+}
+
+#paraGraph{
+    margin-left:20px;
+}
+
+.para_div2,.fotter{
+     background-color:#addbe4;
+    border:5px solid #0a0e6c;   
+}
+
+#ulId{
+    color:pink;
+}
+
+#color{
+    background-color:yellow;
+    color:red;
+}
+
+.spanOne{
+    background-color: white;
+    color:black;
+    border:2px solid black;
+    padding:20px;
+}
+
