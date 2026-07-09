@@ -1,0 +1,70 @@
+#card{
+    height:500px;
+    width:400px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius:15px;
+}
+
+.partOne{
+    background-color:#3f71f2;
+    margin:5px;
+    border-radius:8px;
+    display:flex;
+    justify-content: center;
+    align-items: end;
+    height:200px;
+}
+
+#img{
+    border-radius:50%;
+    border:5px solid white;
+}
+
+#face{
+    color:blue;
+    font-size: 25px;
+}
+
+#twitter{
+    color:lightblue;
+    font-size: 25px;
+}
+
+#insta{
+    color:pink;
+    font-size: 25px;
+}
+
+#youtube{
+    color:red;
+    font-size: 25px;
+}
+
+.btn1{
+    color:white;
+    background-color: #3f71f2;
+    padding:10px;
+    border-radius:18px;
+    font-size: small;
+    width:100px;
+    gap:5px;
+}
+
+.partTwo{
+    text-align: center;
+}
+
+#footerPart{
+    display:flex;
+    justify-content: center;
+    margin-top:20px;
+}
+
+#two{
+    margin:10px;
+}
+
+#button{
+    margin:20px;
+}
