@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy, sans-serif;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+}
+
+.iconOne{
+    height:100px;
+    width:400px;
+    display:flex;
+    gap:10px;
+    background-color: #F5F5F5;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(128, 128, 128, 0.25);
+}
+
+#idIcon{
+    height:100px;
+    width:100px;
+}
+
+#idIcon{
+   font-size:50px;
+}
+
+#texts{
+    margin-top:10px;
+}
+
+#parentsCard{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:25px;
+    margin-top:50px;
+    padding:10px;
+}
+
+/* .iconOne:hover{
+    transition: transform 0.3s ease-in;
+    border:2px solid red;
+} */
