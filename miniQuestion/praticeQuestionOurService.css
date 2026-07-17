@@ -44,7 +44,17 @@ body {
     padding:10px;
 }
 
-/* .iconOne:hover{
-    transition: transform 0.3s ease-in;
-    border:2px solid red;
-} */
+#idIcon{
+    display:flex;
+    justify-content: center;
+}
+
+#idIcon>i{
+    margin-top:20px;
+}
+
+.highlighed:hover{
+    background-color: red;
+    border-radius:50%;
+    transition:ease-out 0.2s;
+}
