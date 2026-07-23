@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+
+            .container{
+                display:grid;
+                grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+                gap:20px;
+
+            }
+
+            .container>div{
+                height:200px;
+                border-radius:12px;
+                place-items: center;
+                display:grid;
+            }
+
+        </style>
+    </head>
+    <body>
+        
+        <div class="container">
+        <div style="border:2px solid black">Product 1</div>
+        <div style="border:2px solid black">Product 2</div>
+        <div style="border:2px solid black">Product 3</div>
+        <div style="border:2px solid black">Product 4</div>
+        <div style="border:2px solid black">Product 5</div>
+        <div style="border:2px solid black">Product 6</div>
+        <div style="border:2px solid black">Product 7</div>
+        <div style="border:2px solid black">Product 8</div>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Responsive Grid Layout:--></title>
+
+        <style>
+            
+            .container{
+                display: grid;
+                grid-template-columns: repeat(4,1fr);
+                grid-template-rows: repeat(3,120px);  
+                gap:20px;
+            }
+
+            .container>div{
+                border:2px solid black;
+            }
+
+            .One{
+                grid-row:1/4;
+                background: #eb3438;
+            }
+
+            .Two{
+                grid-column:2/4;
+                background: #6fbf50;
+            }
+
+            .Four{
+                    grid-column:2;
+                    grid-row:2;
+                    background: #f9b32d;
+                }
+
+                .Five{
+                    grid-column:3;
+                    grid-row:2;
+                    background: #eb3438;
+                }
+
+                .six{
+                    grid-column:2;
+                    grid-row:3;
+                      background: #6fbf50;
+                }
+
+                .seven{
+                    grid-column:3;
+                    grid-row:3;
+                     background: #eb3438;
+                }
+
+                .eight{
+                    background: #f9b32d;
+                    grid-row:2/4;
+                }
+
+                .three{
+                     background-color: #eb3438;
+                }
+
+        </style>
+
+    </head>
+    <body>
+        
+        <div class="container">
+            <div class="part One"> 1</div>
+            <div class="part Two"> 2</div>
+            <div class="part three">3</div>
+            <div class="part Four">4</div>
+            <div class="part Five">5</div>
+            <div class="part six">6</div>
+            <div class="part seven">7</div>
+            <div class="part eight">8</div>
+        </div>
+
+    </body>
+</html>

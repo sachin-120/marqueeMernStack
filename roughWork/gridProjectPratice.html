@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Grid Project Title</title>
+
+        <style>
+            
+            .container{
+                display:grid;
+                grid-template-columns:repeat(3,1fr);
+                /* grid-template-rows:repeat(3,minmax(200,1fr)); */
+                gap:20px;
+            }
+
+            .container>div{
+                border:2px solid black;
+            }
+
+            .one,.three{
+                grid-column: span 2;
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="one">A</div>
+            <div>B</div>
+            <div class="three">#</div>
+            <div>D</div>
+            <div>E</div>
+            <div>F</div>
+            <div>G</div>
+        </div>
+
+    </body>
+</html>

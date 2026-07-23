@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Grid Row One</title>
+
+        <style>
+            .container{
+                display:grid;
+                gap:20px;
+                grid-template-columns: repeat(auto-fit,200px,1fr);
+            }
+
+            .container>span{
+                height:100px;
+                display:grid;
+                place-items:center;
+                border:2px solid black;
+            }
+
+            .item{
+                grid-row: span 2;
+                grid-column: span 2;
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+        <div class="container">
+            <span class="item">A</span>
+            <span class="item">B</span>
+            <span class="item">C</span>
+            <span>D</span>
+            <span>E</span>
+            <span>F</span>
+            <span>G</span>
+            <span>H</span>
+        </div>
+
+    </body>
+</html>

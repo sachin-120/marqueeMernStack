@@ -1,0 +1,39 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Grid Item Placement:--></title>
+
+        <style>
+            .container{
+                display:grid;
+                grid-template-columns:repeat(3,1fr);
+                gap:20px;
+            }
+
+            .container>span{
+                height:100px;
+                display:grid;
+                place-items: center;
+                border:2px solid black;
+            }
+
+            .item{
+                background-color:blue;
+                grid-column: span 2;
+            }
+
+        </style>
+
+    </head>
+    <body>
+
+        <div class="container">
+            <span class="item">1</span>
+            <span>2</span>
+            <span>3</span>
+            <span>4</span>
+            <span>5</span>
+        </div>
+
+    </body>
+</html>
