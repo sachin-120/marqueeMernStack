@@ -1,0 +1,75 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Admin DashBoards:--></title>
+        <style>
+
+            body{
+                width:1000px;
+            }
+            
+            .container{
+                width:1000px;
+                display:grid;
+                grid-template-columns:250px 1fr 1fr;
+                grid-template-rows:80px 250px 180px 80px;
+                gap:15px;
+
+
+
+                grid-template-areas:
+                    "header header header"
+                    "sidebar main main"
+                    "sidebar card1 card2"
+                    "footer footer footer";
+            }
+
+            .container>div{
+                border:2px solid black;
+            }
+
+            .header{
+                grid-area: header;
+                background:purple;
+            }
+
+            .footer{
+                grid-area:footer;
+                background-color: yellow;
+            }
+
+            .sidebar{
+                grid-area:sidebar;
+                background-color:aqua
+            }
+
+            .main{
+                grid-area:main;
+                background-color: red;
+            }
+
+            .card1{
+                grid-area:card1;
+                background:orange;
+            }
+
+            .card2{
+                grid-area:card2;
+                background-color:chartreuse;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="header" >Header</div>
+            <div class="sidebar">Sidebar</div>
+            <div class="main">Main</div>
+            <div class="card1">Card 1</div>
+            <div class="card2">Card 2</div>
+            <div class="footer">Footer</div>
+        </div>
+
+    </body>
+</html>
