@@ -4,16 +4,20 @@
         <title></title>
 
         <style>
-
-           
-
+            
             .container{
                 display:grid;
                 width:1000px;
                 grid-template-columns:repeat(3,1fr);
                 grid-template-rows:200px 200px 200px;
                 gap:15px;
-                margin:100px auto;
+                margin:100px auto
+            }
+
+            .color{
+                overflow: hidden;
+                position:relative;
+                background-position:center;
             }
 
             .container>div{
@@ -30,14 +34,62 @@
 
             .green{
                 background: #d9ef9f;
+                overflow:hidden;
                     /* grid-column: 2;
                     grid-row: 2; */
             }
 
+            .wallet{
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                /* background: transparent;     */
+                /* display:grid;
+                place-items: center; */
+                
+            }
+
+            .wallet img{
+                width:65%;
+                object-fit: contain;
+                display: block;   
+            }
+
+            .walletDes{
+                width:90%;
+                margin:auto;
+            }
+
             .yellow{
                 background: #f8df6d;
+                overflow: hidden;
                     /* grid-column: 3;
                     grid-row: 2; */
+            }
+
+            .inbox{
+                width:90%;
+                margin:auto;
+            }
+            
+            .inbox h2{
+                 margin-bottom: 4px;
+            }
+
+            .inbox p {
+                margin-top: 0;
+            }
+            
+            .inboxPart2{
+                width:90%;
+                margin:auto;  
+            }
+
+            .inboxPart2>img{
+                width:65%;
+                height:100%;
+                object-fit: contain;
+                display: block;      
             }
 
         
@@ -57,8 +109,6 @@
                  background: #c7dceb;
             }
 
-
-
         </style>
 
     </head>
@@ -69,8 +119,24 @@
         <div class="container">
             <div class="purple"></div>
             <div class="pink"></div>
-            <div class="green"></div>
-            <div class="yellow"></div>
+            <div class="color green">
+                <!-- <div class="wallet">
+                    <img src="assetsProjectDashboard/walletPic2.png">
+                    </div>
+                    <div class="walletDes">
+                    <p><strong style="font-size: 20px;">Wallet</strong><br>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                    </div> -->
+                </div>
+            <div class="yellow">
+                <!-- <div class="inbox">
+                    <h2>Inbox</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+                </div>
+                <div class="inboxPart2">
+                    <img src="assetsProjectDashboard/inboxPic.jpg">
+                </div> -->
+            </div>
             <div class="orange"></div>
             <div class="blue"></div>
         </div>
