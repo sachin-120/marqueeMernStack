@@ -18,8 +18,93 @@ body {
     display:grid;
     grid-template-columns:20% 80%;
     gap:10px;
+    
 }
 
 .dashboardPage>div{
     border:2px solid black;
+}
+
+.asideDescription{
+    margin:20px;
+}
+
+.aside{
+    background:#04569f;
+    margin-right:15px;
+}
+
+.asideTags{
+    display:flex;
+    gap:30px;
+    flex-direction:column;
+    margin:20px;
+}
+
+.asideTags>div{
+
+}
+
+.asideTagUser{
+    display:flex;
+    gap:10px;
+}
+
+/* Aside Done Here */
+
+ .header{
+    position: sticky;
+    top: 0px ;
+    height:70px;
+    width: 100%;
+    background-color: aqua;
+}
+
+.header{
+    display:flex;
+    justify-content:space-between;
+}
+
+.headerLogo{
+    display:flex;
+    gap:15px;
+   margin-top:10px; 
+}
+
+#logo{
+    margin-top:12px;
+}
+
+#name{
+    height:30px;
+    width:300px;
+}
+
+/* Header Part One */
+
+/* .mainPartOne{
+    display:flex;
+} */
+
+.mainPartOne{
+    margin-top:20px;
+    background-color: maroon;
+    border-radius:12px;
+
+}
+
+.mainPartOne1{
+    display:flex;
+    justify-content: space-between;
+}
+
+.mainPartOneLogo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.mainPartOne2{
+    display:flex;
+    gap:80px;
 }
